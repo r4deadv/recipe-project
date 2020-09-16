@@ -1,9 +1,19 @@
+body {
+	margin: 0;
+}
 nav {
 	background: aliceblue;
 	width: 20em;
 }
+nav ul {
+	padding: 24px;
+}
 img {
 	width: 300px;
+	border: 7px solid;
+	padding: 7px;
+	border-image-source: linear-gradient(to right, black, grey, blue);
+	border-image-slice: 5;
 }
 article {
 	margin-left: 40px;
@@ -11,4 +21,5 @@ article {
 h1 {
 	background: #8f8fff;
 	text-align: center;
+	margin: 0;
 }
