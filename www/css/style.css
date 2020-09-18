@@ -4,6 +4,10 @@ body {
 nav {
 	background: aliceblue;
 	width: 20em;
+	margin-left: -8em;
+}
+nav:hover {
+	margin-left: 0;
 }
 nav ul {
 	padding: 24px;
@@ -22,4 +26,19 @@ h1 {
 	background: #8f8fff;
 	text-align: center;
 	margin: 0;
+}
+tr:nth-child(odd) {
+	background: lightgrey;
+}
+table {
+	margin-left: 2em;
+	border-collapse: collapse;
+}
+td.ingr {
+	text-align: left;
+	padding: .6em 6em .6em .6em;
+}
+td.amount {
+	text-align: right;
+	padding: .6em .6em .6em 6em;
 }
