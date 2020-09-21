@@ -6,68 +6,73 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-		<h1>My Favorite Recipes</h1>
-		<nav>
-			<ul>
-				<li><a href="#soup">Soup</a></li>
-				<li><a href="#salad">Salad</a></li>
-				<li><a href="#pizza">Pizza</a></li>
-			</ul>
-		</nav>
-		<hr>
-		<article>
-			<h2 id="soup">Soup</h2>
-			<img src="images/soup.jpg" width="320" alt="soup">
-			<p>
-	         	Beethoven once said <q>Only the pure of heart can make a good soup</q>.   Well, here's my attempt at doing just that!
-	       	</p>
-			<ol>
-				<li>Step 1</li>
-				<li>Step 2</li>
-				<li>Step 3</li>
-				<li>Enjoy!</li>
-			</ol>
-		</article>
-		<hr>
-		<article>
-			<h2 id="salad">Salad</h2>
-			<img src="images/salad.jpg" width="320" alt="salad">
-			<h3>List of ingredients:</h3>
-			<table class="ingredient">
-				<tr>
-					<td class="ingr">Ingredient 1</td>
-					<td class="amount">200g</td>
-				</tr>
-				<tr>
-					<td class="ingr">Ingredient 2</td>
-					<td class="amount">2000g</td>
-				</tr>
-				<tr>
-					<td class="ingr">Ingredient 3</td>
-					<td class="amount">20g</td>
-				</tr>
-			</table>
-			<p>Who can resist a fresh salad ! Here's one of my favorites. </p>
-			<ol>
-				<li>Step 1</li>
-				<li>Step 2</li>
-				<li>Step 3</li>
-				<li>Enjoy!</li>
-			</ol>
-		</article>
-		<hr>
-		<article>
-			<h2 id="pizza">Pizza</h2>
-			<img src="images/pizza.png" width="320" alt="pizza">
-			<p>
-				Pizza, the king of comfort foods. Try this simple, taste sensation.
-			</p>
-			<ol>
-				<li>Step 1</li>
-				<li>Step 2</li>
-				<li>Step 3</li>
-				<li>Enjoy!</li>
-			</ol>
-		</article>
+		<header>
+			<h1>My Favorite Recipes</h1>
+			<input id="search-box" type="text" name="search" placeholder="Search...">
+		</header>
+		<div class="container">
+			<nav>
+				<ul>
+					<li><a href="#soup">Soup</a></li>
+					<li><a href="#salad">Salad</a></li>
+					<li><a href="#pizza">Pizza</a></li>
+				</ul>
+			</nav>
+			<hr>
+			<article class="art-top">
+				<h2 id="soup">Soup</h2>
+				<img src="images/soup.jpg" width="320" alt="soup">
+				<p>
+		         	Beethoven once said <q>Only the pure of heart can make a good soup</q>.   Well, here's my attempt at doing just that!
+		       	</p>
+				<ol>
+					<li>Step 1</li>
+					<li>Step 2</li>
+					<li>Step 3</li>
+					<li>Enjoy!</li>
+				</ol>
+			</article>
+			<hr>
+			<article>
+				<h2 id="salad">Salad</h2>
+				<img src="images/salad.jpg" width="320" alt="salad">
+				<h3>List of ingredients:</h3>
+				<table class="ingredient">
+					<tr>
+						<td class="ingr">Ingredient 1</td>
+						<td class="amount">200g</td>
+					</tr>
+					<tr>
+						<td class="ingr">Ingredient 2</td>
+						<td class="amount">2000g</td>
+					</tr>
+					<tr>
+						<td class="ingr">Ingredient 3</td>
+						<td class="amount">20g</td>
+					</tr>
+				</table>
+				<p>Who can resist a fresh salad ! Here's one of my favorites. </p>
+				<ol>
+					<li>Step 1</li>
+					<li>Step 2</li>
+					<li>Step 3</li>
+					<li>Enjoy!</li>
+				</ol>
+			</article>
+			<hr>
+			<article>
+				<h2 id="pizza">Pizza</h2>
+				<img src="images/pizza.png" width="320" alt="pizza">
+				<p>
+					Pizza, the king of comfort foods. Try this simple, taste sensation.
+				</p>
+				<ol>
+					<li>Step 1</li>
+					<li>Step 2</li>
+					<li>Step 3</li>
+					<li>Enjoy!</li>
+				</ol>
+			</article>
+		</div>
 	</body>
 </html>
